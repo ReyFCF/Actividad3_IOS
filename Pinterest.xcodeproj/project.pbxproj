@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		45F807F24774D2B17535DC15 /* Pods_Pinterest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CED8311EF2184743C5B29C /* Pods_Pinterest.framework */; };
+		D051507E223B2A3B00DCB886 /* ViewLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051507D223B2A3B00DCB886 /* ViewLogIn.swift */; };
+		D0515080223B2D2300DCB886 /* pin.gif in Resources */ = {isa = PBXBuildFile; fileRef = D051507F223B2D2300DCB886 /* pin.gif */; };
+		D081645F223B42D900C1578B /* ViewEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D081645E223B42D900C1578B /* ViewEmail.swift */; };
+		D0816461223B42EC00C1578B /* ViewLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0816460223B42EC00C1578B /* ViewLogo.swift */; };
+		D0816463223B42FE00C1578B /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0816462223B42FE00C1578B /* Splash.swift */; };
+		D0816465223B430900C1578B /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0816464223B430800C1578B /* UIView+Constraints.swift */; };
+		D0816469223C9F1E00C1578B /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0816468223C9F1E00C1578B /* Usuario.swift */; };
 		D0AEF19F2203D0EC0031551F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AEF19E2203D0EC0031551F /* AppDelegate.swift */; };
 		D0AEF1A12203D0EC0031551F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AEF1A02203D0EC0031551F /* ViewController.swift */; };
 		D0AEF1A42203D0EC0031551F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AEF1A22203D0EC0031551F /* Main.storyboard */; };
@@ -20,6 +27,13 @@
 		59D2E6CEF56FB7AA27042230 /* Pods-Pinterest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinterest.debug.xcconfig"; path = "Target Support Files/Pods-Pinterest/Pods-Pinterest.debug.xcconfig"; sourceTree = "<group>"; };
 		69B26DD36FBBC2FB69370B60 /* Pods-Pinterest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinterest.release.xcconfig"; path = "Target Support Files/Pods-Pinterest/Pods-Pinterest.release.xcconfig"; sourceTree = "<group>"; };
 		70CED8311EF2184743C5B29C /* Pods_Pinterest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pinterest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D051507D223B2A3B00DCB886 /* ViewLogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLogIn.swift; sourceTree = "<group>"; };
+		D051507F223B2D2300DCB886 /* pin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pin.gif; path = "../../../../../../Downloads/Pinterest-master/Pinterest/pin.gif"; sourceTree = "<group>"; };
+		D081645E223B42D900C1578B /* ViewEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEmail.swift; sourceTree = "<group>"; };
+		D0816460223B42EC00C1578B /* ViewLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLogo.swift; sourceTree = "<group>"; };
+		D0816462223B42FE00C1578B /* Splash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		D0816464223B430800C1578B /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		D0816468223C9F1E00C1578B /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		D0AEF19B2203D0EC0031551F /* Pinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AEF19E2203D0EC0031551F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0AEF1A02203D0EC0031551F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +70,6 @@
 				59D2E6CEF56FB7AA27042230 /* Pods-Pinterest.debug.xcconfig */,
 				69B26DD36FBBC2FB69370B60 /* Pods-Pinterest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,13 +94,20 @@
 		D0AEF19D2203D0EC0031551F /* Pinterest */ = {
 			isa = PBXGroup;
 			children = (
+				D051507F223B2D2300DCB886 /* pin.gif */,
 				D0AEF19E2203D0EC0031551F /* AppDelegate.swift */,
+				D0816462223B42FE00C1578B /* Splash.swift */,
+				D0816460223B42EC00C1578B /* ViewLogo.swift */,
+				D0816464223B430800C1578B /* UIView+Constraints.swift */,
 				D0AEF1A02203D0EC0031551F /* ViewController.swift */,
+				D081645E223B42D900C1578B /* ViewEmail.swift */,
+				D051507D223B2A3B00DCB886 /* ViewLogIn.swift */,
 				D0AEF1A22203D0EC0031551F /* Main.storyboard */,
 				D0AEF1A52203D0ED0031551F /* Assets.xcassets */,
 				D0AEF1A72203D0ED0031551F /* LaunchScreen.storyboard */,
 				D0AEF1AA2203D0ED0031551F /* Info.plist */,
 				D0AF456A220D109D0024DAA4 /* GoogleService-Info.plist */,
+				D0816468223C9F1E00C1578B /* Usuario.swift */,
 			);
 			path = Pinterest;
 			sourceTree = "<group>";
@@ -152,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0515080223B2D2300DCB886 /* pin.gif in Resources */,
 				D0AEF1A92203D0ED0031551F /* LaunchScreen.storyboard in Resources */,
 				D0AF456B220D109D0024DAA4 /* GoogleService-Info.plist in Resources */,
 				D0AEF1A62203D0ED0031551F /* Assets.xcassets in Resources */,
@@ -171,14 +192,20 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Pinterest/Pods-Pinterest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,8 +242,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0816469223C9F1E00C1578B /* Usuario.swift in Sources */,
+				D0816463223B42FE00C1578B /* Splash.swift in Sources */,
 				D0AEF1A12203D0EC0031551F /* ViewController.swift in Sources */,
+				D051507E223B2A3B00DCB886 /* ViewLogIn.swift in Sources */,
+				D0816465223B430900C1578B /* UIView+Constraints.swift in Sources */,
+				D0816461223B42EC00C1578B /* ViewLogo.swift in Sources */,
 				D0AEF19F2203D0EC0031551F /* AppDelegate.swift in Sources */,
+				D081645F223B42D900C1578B /* ViewEmail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
