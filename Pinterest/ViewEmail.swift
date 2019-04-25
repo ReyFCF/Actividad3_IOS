@@ -143,7 +143,7 @@ class ViewEmail: UIViewController {
                             if error != nil {
                                 print(error.debugDescription)
                             }
-                            let ref = Database.database().reference(fromURL: "https://pinterest-tecmi.firebaseio.com/")
+                            let ref = Database.database().reference(fromURL: "pinterest-177a6.firebaseapp.com")
                             if let uid = usuario?.uid{
                                 let usuariosRef = ref.child("usuarios").child(uid)
                                 usuariosRef.updateChildValues(["email" : email, "password": pass, "age" : age])

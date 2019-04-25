@@ -102,7 +102,7 @@ class ViewController: UIViewController {
                 if error != nil {
                     print(error.debugDescription)
                 }
-                let ref = Database.database().reference(fromURL: "https://pinterest-tecmi.firebaseio.com/")
+                let ref = Database.database().reference(fromURL: "pinterest-177a6.firebaseapp.com")
                 
                 if let uid = user?.uid{
                     let usersRef = ref.child("users").child(uid)

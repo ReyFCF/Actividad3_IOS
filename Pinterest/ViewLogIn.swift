@@ -12,6 +12,7 @@ class ViewLogIn: UIViewController {
         
         view.backgroundColor = UIColor.white
         view.addSubview(logoContainerView)
+        view.addSubview(tittle)
         
         logoContainerView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         logoContainerView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
@@ -210,7 +211,7 @@ class ViewLogIn: UIViewController {
                     print(error.debugDescription)
                 }
                 
-                let ref = Database.database().reference(fromURL: "https://pinterest-tecmi.firebaseio.com/")
+                let ref = Database.database().reference(fromURL: "pinterest-177a6.firebaseapp.com")
                 
                 if let uid = user?.uid{
                     
