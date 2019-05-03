@@ -96,11 +96,9 @@ class ViewController: UIViewController {
     
     @objc func handleButton(){
         if let email = emailTextField.text, let pass = passwordTextField.text{
-            
             Auth.auth().signIn(withEmail: email, password: pass) { (data:AuthDataResult?, error) in
                 let user = data?.user
                 if error != nil {
-                    print(error.debugDescription)
                 }
                 let ref = Database.database().reference(fromURL: "pinterest-177a6.firebaseapp.com")
                 
@@ -112,6 +110,13 @@ class ViewController: UIViewController {
                     ref.child("message").child(uid).removeValue()
                     
                 }
+                let layout = UICollectionViewFlowLayout()
+                layout.sectionInset = UIEdgeInsets(top: 20, left: 0, bottom: 10, right: 0)
+                layout.itemSize = CGSize(width: UIScreen.main.bounds.width/2, height: UIScreen.main.bounds.width/2)
+                layout.minimumInteritemSpacing = 0
+                layout.minimumLineSpacing = 0
+                let collectionView:UICollectionViewController = ViewCollection.init(collectionViewLayout:layout )
+                self.navigationController?.pushViewController(collectionView, animated: true)
             }
         }
     }

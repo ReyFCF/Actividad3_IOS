@@ -15,6 +15,8 @@
 		D0816463223B42FE00C1578B /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0816462223B42FE00C1578B /* Splash.swift */; };
 		D0816465223B430900C1578B /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0816464223B430800C1578B /* UIView+Constraints.swift */; };
 		D0816469223C9F1E00C1578B /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0816468223C9F1E00C1578B /* Usuario.swift */; };
+		D099218F2272890C002CDADB /* Celda.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099218E2272890C002CDADB /* Celda.swift */; };
+		D09921912272896E002CDADB /* ViewCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09921902272896E002CDADB /* ViewCollection.swift */; };
 		D0AEF19F2203D0EC0031551F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AEF19E2203D0EC0031551F /* AppDelegate.swift */; };
 		D0AEF1A12203D0EC0031551F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AEF1A02203D0EC0031551F /* ViewController.swift */; };
 		D0AEF1A42203D0EC0031551F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AEF1A22203D0EC0031551F /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 		D0816462223B42FE00C1578B /* Splash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 		D0816464223B430800C1578B /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		D0816468223C9F1E00C1578B /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		D099218E2272890C002CDADB /* Celda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celda.swift; sourceTree = "<group>"; };
+		D09921902272896E002CDADB /* ViewCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCollection.swift; sourceTree = "<group>"; };
 		D0AEF19B2203D0EC0031551F /* Pinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AEF19E2203D0EC0031551F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0AEF1A02203D0EC0031551F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,8 +104,10 @@
 				D0816460223B42EC00C1578B /* ViewLogo.swift */,
 				D0816464223B430800C1578B /* UIView+Constraints.swift */,
 				D0AEF1A02203D0EC0031551F /* ViewController.swift */,
+				D099218E2272890C002CDADB /* Celda.swift */,
 				D081645E223B42D900C1578B /* ViewEmail.swift */,
 				D051507D223B2A3B00DCB886 /* ViewLogIn.swift */,
+				D09921902272896E002CDADB /* ViewCollection.swift */,
 				D0AEF1A22203D0EC0031551F /* Main.storyboard */,
 				D0AEF1A52203D0ED0031551F /* Assets.xcassets */,
 				D0AEF1A72203D0ED0031551F /* LaunchScreen.storyboard */,
@@ -242,11 +248,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D099218F2272890C002CDADB /* Celda.swift in Sources */,
 				D0816469223C9F1E00C1578B /* Usuario.swift in Sources */,
 				D0816463223B42FE00C1578B /* Splash.swift in Sources */,
 				D0AEF1A12203D0EC0031551F /* ViewController.swift in Sources */,
 				D051507E223B2A3B00DCB886 /* ViewLogIn.swift in Sources */,
 				D0816465223B430900C1578B /* UIView+Constraints.swift in Sources */,
+				D09921912272896E002CDADB /* ViewCollection.swift in Sources */,
 				D0816461223B42EC00C1578B /* ViewLogo.swift in Sources */,
 				D0AEF19F2203D0EC0031551F /* AppDelegate.swift in Sources */,
 				D081645F223B42D900C1578B /* ViewEmail.swift in Sources */,
