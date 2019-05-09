@@ -9,6 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         
         let initialViewController  = Splash()
+        _  = ViewCollection(collectionViewLayout: <#T##UICollectionViewLayout#>)
         let navController = UINavigationController(rootViewController: initialViewController)
         window = UIWindow(frame: UIScreen.main.bounds)
         self.window!.rootViewController = navController
@@ -39,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return
         }
         
-        var nav = UINavigationController(rootViewController: vc)
+        let nav = UINavigationController(rootViewController: vc)
         window.rootViewController = nav
         window.makeKeyAndVisible()
         UIView.transition(with: window, duration: 0.3, options: .transitionCrossDissolve, animations: nil, completion: nil)

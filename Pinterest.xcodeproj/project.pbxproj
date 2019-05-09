@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45F807F24774D2B17535DC15 /* Pods_Pinterest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CED8311EF2184743C5B29C /* Pods_Pinterest.framework */; };
+		D00865BF2284EB0A00569AC3 /* PinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00865BE2284EB0A00569AC3 /* PinController.swift */; };
 		D03D7CAB227F714A006C4999 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D7CAA227F714A006C4999 /* Layout.swift */; };
 		D051507E223B2A3B00DCB886 /* ViewLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051507D223B2A3B00DCB886 /* ViewLogIn.swift */; };
 		D0515080223B2D2300DCB886 /* pin.gif in Resources */ = {isa = PBXBuildFile; fileRef = D051507F223B2D2300DCB886 /* pin.gif */; };
@@ -30,6 +31,7 @@
 		59D2E6CEF56FB7AA27042230 /* Pods-Pinterest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinterest.debug.xcconfig"; path = "Target Support Files/Pods-Pinterest/Pods-Pinterest.debug.xcconfig"; sourceTree = "<group>"; };
 		69B26DD36FBBC2FB69370B60 /* Pods-Pinterest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinterest.release.xcconfig"; path = "Target Support Files/Pods-Pinterest/Pods-Pinterest.release.xcconfig"; sourceTree = "<group>"; };
 		70CED8311EF2184743C5B29C /* Pods_Pinterest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pinterest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00865BE2284EB0A00569AC3 /* PinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinController.swift; sourceTree = "<group>"; };
 		D03D7CAA227F714A006C4999 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		D051507D223B2A3B00DCB886 /* ViewLogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLogIn.swift; sourceTree = "<group>"; };
 		D051507F223B2D2300DCB886 /* pin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pin.gif; path = "../../../../../../Downloads/Pinterest-master/Pinterest/pin.gif"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				D0AF456A220D109D0024DAA4 /* GoogleService-Info.plist */,
 				D0816468223C9F1E00C1578B /* Usuario.swift */,
 				D03D7CAA227F714A006C4999 /* Layout.swift */,
+				D00865BE2284EB0A00569AC3 /* PinController.swift */,
 			);
 			path = Pinterest;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				D09921912272896E002CDADB /* ViewCollection.swift in Sources */,
 				D03D7CAB227F714A006C4999 /* Layout.swift in Sources */,
 				D0816461223B42EC00C1578B /* ViewLogo.swift in Sources */,
+				D00865BF2284EB0A00569AC3 /* PinController.swift in Sources */,
 				D0AEF19F2203D0EC0031551F /* AppDelegate.swift in Sources */,
 				D081645F223B42D900C1578B /* ViewEmail.swift in Sources */,
 			);
