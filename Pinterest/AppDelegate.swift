@@ -9,7 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         
         let initialViewController  = Splash()
-        _  = ViewCollection(collectionViewLayout: <#T##UICollectionViewLayout#>)
+        _  = ViewCollection(collectionViewLayout: UICollectionViewFlowLayout())
         let navController = UINavigationController(rootViewController: initialViewController)
         window = UIWindow(frame: UIScreen.main.bounds)
         self.window!.rootViewController = navController
